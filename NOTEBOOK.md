@@ -1,1 +1,6 @@
+# Exploratory Analysis Process
 Starting with the datasets and proposed questions from [Homework 5](https://git-community.cs.odu.edu/ediep/CS725-HW5), I had to explore the dataset for each question to see which dataset and question was feasible to continue exploring.
+
+# References
+ * [Homework 5](https://git-community.cs.odu.edu/ediep/CS725-HW5)
+ * 
