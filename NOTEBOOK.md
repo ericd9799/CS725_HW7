@@ -15,9 +15,11 @@ Below chart is the initial chart created for one country to see how the chart wo
 Looking at the initial chart and the dataset, it would not be feasible to plot the basic and managed drinking-water services ratings for 194 countries. Thus, I limited to only countries where they had both basic managed drinking-water services rating populated. Below is the chart produced.
 ![alt text](All_Fields_Populated.PNG "Basic and Managed Drinking-Water Services Populated")
 
-The chart produced plots the points incorrectly by connecting both basic and managed ratings. Also, the years were not selected used as the x-axis. After seeing this, I decided to narrow the question to how has the access to basic drinking-water and sanitation changed over time for rural areas? 
+The chart produced plots the points incorrectly by connecting both basic and managed ratings. Also, the years were not selected used as the x-axis. After seeing this, I decided to narrow the question, how has the access to basic drinking-water and sanitation changed over time for rural areas? 
 
-After narrowing the question, columns that did not pertain to basic drinking-water service were removed. As I explore the smaller dataset, I noticed there were countries where they had the rating was either 0%, or between 90% to 100% of rural populating having access to basic drinking for all years. I decided to filter out these countries, and the size of the dataset was reduced further. Though the dataset has been filtered, the number of remaining countries is over 100. This would be infeasible to plot and display within a chart. I added a column for continent, and listed the continent for each country.
+After narrowing the question, columns that did not pertain to basic drinking-water service were removed. As I explore the smaller dataset, I noticed there were countries where they had the rating was either 0%, or between 90% to 100% of rural populating having access to basic drinking for all years. I decided to filter out these countries, and the size of the dataset was reduced further. Though the dataset has been filtered, the number of remaining countries is over 100. This would be infeasible to plot and display within a chart. 
+
+I added a new column for that would hold the continent each country is located in. Adding the column will help further filter the data. As I filtered on the new continent column, I decided to narrow the data for analysis to countries within Asia. The question is now, how has the access to basic drinking-water and santitation changed over time for rural areas for countries in Asia?
 
 # References
  * [CS725, Spring 2018 - Homework 5](https://git-community.cs.odu.edu/ediep/CS725-HW5)
