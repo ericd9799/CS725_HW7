@@ -19,7 +19,7 @@ The chart produced plots the points incorrectly by connecting both basic and man
 
 After narrowing the question, columns that did not pertain to basic drinking-water service were removed. As I explore the smaller dataset, I noticed there were countries where they had the rating was either 0%, or between 90% to 100% of rural populating having access to basic drinking for all years. I decided to filter out these countries, and the size of the dataset was reduced further. Though the dataset has been filtered, the number of remaining countries is over 100. This would be infeasible to plot and display within a chart. 
 
-I added a new column for that would hold the continent each country is located in. Adding the column will help further filter the data. As I filtered on the new continent column, I decided to narrow the data for analysis to countries within Asia. The question is now, how has the access to basic drinking-water and santitation changed over time for rural areas for countries in Asia?
+I added a new column for that would hold the continent each country is located in. Adding the column will help further filter the data. As I filtered on the new continent column, I decided to narrow the data for analysis to countries within Asia. The question is now, how has the access to basic drinking-water and santitation changed over time for rural areas for countries in South America?
 
 # References
  * [CS725, Spring 2018 - Homework 5](https://git-community.cs.odu.edu/ediep/CS725-HW5)
