@@ -9,6 +9,9 @@ For the dataset, CSV files were provided and they were not formatted -- no borde
 
 Since I am only interested in the ratings for rural areas, I removed columns from the dataset that were not not of interest. The dataset had blank values, I assumed they were zero and populated them with "0".
 
+Below chart is the initial chart created.
+![alt text](https://git-community.cs.odu.edu/ediep/CS725-HW7/blob/master/Initial_Chart.PNG)
+
 # References
  * [CS725, Spring 2018 - Homework 5](https://git-community.cs.odu.edu/ediep/CS725-HW5)
  * [WHO/UNICEF Join Monitoring Programme for Water Supply, Sanitation, and Hygiene](https://washdata.org/data)
