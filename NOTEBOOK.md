@@ -15,6 +15,8 @@ Below chart is the initial chart created for one country to see how the chart wo
 Looking at the initial chart and the dataset, it would not be feasible to plot the basic and managed drinking-water services ratings for 194 countries. Thus, I limited to only countries where they had both basic managed drinking-water services rating populated. Below is the chart produced.
 ![alt text](All_Fields_Populated.PNG "Basic and Managed Drinking-Water Services Populated")
 
+The chart produced plots the points incorrectly by connecting both basic and managed ratings. After seeing this, I decided to narrow the question to how has the access to basic drinking-water and sanitation changed over time for rural areas?
+
 # References
  * [CS725, Spring 2018 - Homework 5](https://git-community.cs.odu.edu/ediep/CS725-HW5)
  * [WHO/UNICEF Join Monitoring Programme for Water Supply, Sanitation, and Hygiene](https://washdata.org/data)
