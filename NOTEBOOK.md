@@ -21,6 +21,11 @@ After narrowing the question, columns that did not pertain to basic drinking-wat
 
 I added a new column for that would hold the continent each country is located in. Adding the column will help further filter the data. As I filtered on the new continent column, I decided to narrow the data for analysis to countries within Asia. The question is now, how has the access to basic drinking-water and santitation changed over time for rural areas for countries in South America?
 
+The graphs below represents the data filtered for South American countries with basic access to drinking-water and sanitation services.
+![alt text](Basic_Drinking_Water_SouthAmerica.PNG "Basic Drinking-Water Service for South American Countries")
+
+![alt text](Basic_Sanitation_SouthAmerica.PNG "Basic Sanitation Service for South American Countries")
+
 # References
  * [CS725, Spring 2018 - Homework 5](https://git-community.cs.odu.edu/ediep/CS725-HW5)
  * [WHO/UNICEF Join Monitoring Programme for Water Supply, Sanitation, and Hygiene](https://washdata.org/data)
