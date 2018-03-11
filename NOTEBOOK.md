@@ -27,10 +27,10 @@ The graph below represents the data filtered for South American countries with b
 The graph below represents the data filtered for South America countries with basic sanitation service.
 ![alt text](Basic_Sanitation_SouthAmerica.PNG "Basic Sanitation Service for South American Countries")
 
-I combined the datasets to easier analyze the change to access of basic drinking-water and sanitation over time for South American countries.
+I combined the datasets to easier analyze the change to access of basic drinking-water and sanitation over time for South American countries. After combining the data, I had to think of a way to present the data in a meaningful way. I came to a conlusion of using small multiple line charts to present both the change over year for access to basic drinking-water service and basic sanitation for each country.
+![alt text](SmallMultiple.png "Access to Basic Drinking-Water Service vs. Access to Basic Sanitation")
 
 # References
  * [CS725, Spring 2018 - Homework 5](https://git-community.cs.odu.edu/ediep/CS725-HW5)
- * [WHO/UNICEF Join Monitoring Programme for Water Supply, Sanitation, and Hygiene](https://washdata.org/data)
  * [Basic and safely managed sanitation services Data by country by World Health Organization](http://apps.who.int/gho/data/node.main.WSHSANITATION?lang=en)
  * [Basic and safely managed drinking water services Data by country by World Health Organization](http://apps.who.int/gho/data/node.main.WSHWATER?lang=en)
