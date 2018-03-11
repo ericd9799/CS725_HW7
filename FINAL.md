@@ -1,4 +1,5 @@
 # Final Visualization
+![alt text](SmallMultiples.png)
 
 # References
  * [CS725, Spring 2018 - Homework 5](https://git-community.cs.odu.edu/ediep/CS725-HW5)
