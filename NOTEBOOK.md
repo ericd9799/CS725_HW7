@@ -12,7 +12,7 @@ Both dataset file layout are identical, so after I figure out what transformatio
 Below chart is the initial chart created for one country to see how the chart would look like.
 ![alt text](Initial_Chart.PNG "Initial Chart")
 
-Looking at the initial chart and the dataset, it would not be feasible to plot the basic and managed drinking-water services ratings for 194 countries. Thus, I limited to only countries where they had both basic managed drinking-water services rating populated. Below is the chart produced.
+Looking at the initial chart and the dataset, it would not be feasible to plot the basic and managed drinking-water services ratings for 194 countries for 15 years. This would cause the graph to be illegible and unmeaningful. Thus, I limited to only countries where they had both basic managed drinking-water services rating populated. Below is the chart produced.
 ![alt text](All_Fields_Populated.PNG "Basic and Managed Drinking-Water Services Populated")
 
 The chart produced plots the points incorrectly by connecting both basic and managed ratings. Also, the years were not selected used as the x-axis. After seeing this, I decided to narrow the question, how has the access to basic drinking-water and sanitation changed over time for rural areas? 
