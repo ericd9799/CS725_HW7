@@ -28,7 +28,7 @@ The graph below represents percentage of population for rural areas in South Ame
 The graph below represents percentage of population for rural areas in South America countries with access to basic sanitation service.
 ![alt text](Basic_Sanitation_SouthAmerica.PNG "Basic Sanitation Service for South American Countries")
 
-I combined the datasets of both charts aboved to be able to compare the access to basic drinking-water services versus sanitation. After combining the data, I had to think of a way to present the data in a meaningful way. I came to a conlusion of using small multiple line charts to present both the change over year for access to basic drinking-water service and basic sanitation for each South American country.
+I combined the datasets of both charts aboved to be able to compare the access to basic drinking-water services versus sanitation. By combining the data, the question changed to, how does access to basic drinking-water services compare to basic sanitation services in rural areas of South American countries? After combining the data, if all the points were plot onto a graph, there would be too many lines. Thus, I decided to generate a graph for each country. With this, I decided to use small multiples to present all the graph at once.
 ![alt text](SmallMultiple.png "Access to Basic Drinking-Water Service vs. Access to Basic Sanitation")
 
 # References
