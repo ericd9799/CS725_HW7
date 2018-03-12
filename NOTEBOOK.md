@@ -7,12 +7,10 @@ Basic drinking water service is defined as where drinking water is from an impro
 
 Since both dataset files are identical, after I figure out what transformation I need for one, I will replicate for the other. Since I am only interested in the ratings for rural areas, I removed columns from the dataset which were for urban area. The dataset had blank values, I assumed they were zero and populated them with a zero.
 
-Below chart is the initial chart created for one country to see how the chart would look like.
-![alt text](Initial_Chart.PNG "Initial Chart")
+Below chart is the initial chart created for a few countries. In the chart, there are two points for each year because it is connecting the percentage value between basic drinking-water services and managed drinking-water services. The line goes up and down because these countries did not have values for managed drinking-water services.
+![alt text](Pre_Initial_Chart.PNG "Initial Chart")
 
-To see what the chart would look like for all countries
-
-Looking at the initial chart and the dataset, it would not be feasible to plot the basic and managed drinking-water services ratings for 194 countries for 15 years. This would cause the graph to be illegible and unmeaningful. Thus, I limited to only countries where they had both basic managed drinking-water services rating populated. Below is the chart produced.
+Looking at the initial chart and the dataset, it would not be feasible to plot the basic and managed drinking-water services ratings for 194 countries for 15 years. This would cause the graph to be illegible and unmeaningful. I decided to limit to only countries where they had both basic managed drinking-water services rating populated. Below is the chart produced.
 ![alt text](All_Fields_Populated.PNG "Basic and Managed Drinking-Water Services Populated")
 
 The chart produced plots the points incorrectly by connecting both basic and managed ratings. Also, the years were not selected as the x-axis. After seeing this, I decided to narrow the question, how has the access to basic drinking-water and sanitation changed over time for rural areas? 
