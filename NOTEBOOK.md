@@ -15,17 +15,20 @@ This would cause the graph to be illegible and unmeaningful. I decided to filter
 
 The chart plotted the points incorrectly by connecting both basic and managed ratings as see in the initial chart. Again, there are two points for each year. After at both charts and the dataset, it would not be feasible to plot the basic and managed drinking-water services ratings for 194 countries for 15 years. I decided to narrow the question, how has the access to basic drinking-water and sanitation changed over time for rural areas? 
 
-After narrowing the question, columns that did not pertain to basic drinking-water service were removed. As I explore the smaller dataset, I noticed there were countries where they had the rating was either 0%, or between 90% to 100% of rural populating having access to basic drinking for all years. I decided to filter out these countries, and the size of the dataset was reduced further. Though the dataset has been filtered, the number of remaining countries is over 100. This would still cause the produced chart to be illegible.
+After narrowing the question, columns that did not pertain to basic drinking-water service were removed. With the question narrowed, I created a chart that displays the population with access to basic drinking-water in rural areas. Below is the produced chart.
+![alt text](Initial_Chart.PNG "Population with Access to Basic Drinking-Water in Rural Areas")
 
-I added a new column to the dataset which contains the continent the country is in. Adding the column will help further filter the data. As I filtered on the new continent column, I decided to narrow the data for analysis to countries within South America. The question is now, how has the access to basic drinking-water and santitation changed over time for rural areas for countries in South America?
+From the chart, I explored the dataset and noticed there were countries where they had the rating was either 0%, or between 90% to 100% of rural populating having access to basic drinking for all years. I decided to filter out these countries, and the number of remaining countries is over 100. This would still cause the produced chart to be illegible if the data for drinking-water and sanitation are plotted for 100+ countries.
 
-The graph below represents the data filtered for South American countries with basic access to drinking-water service.
+I added a new column to the dataset which contains the continent the country is located in. Adding the column will help further filter the data. I explored the data by filtering on the new column, and decided to narrow the data for analysis to countries within South America. The question changed to, how has the access to basic drinking-water and santitation changed over time in rural areas for countries in South America?
+
+The graph below represents percentage of population for rural areas in South American countries with access to basic drinking-water service.
 ![alt text](Basic_Drinking_Water_SouthAmerica.PNG "Basic Drinking-Water Service for South American Countries")
 
-The graph below represents the data filtered for South America countries with basic sanitation service.
+The graph below represents percentage of population for rural areas in South America countries with access to basic sanitation service.
 ![alt text](Basic_Sanitation_SouthAmerica.PNG "Basic Sanitation Service for South American Countries")
 
-I combined the datasets to easier analyze the change to access of basic drinking-water and sanitation over time for South American countries. After combining the data, I had to think of a way to present the data in a meaningful way. I came to a conlusion of using small multiple line charts to present both the change over year for access to basic drinking-water service and basic sanitation for each country.
+I combined the datasets of both charts aboved to be able to compare the access to basic drinking-water services versus sanitation. After combining the data, I had to think of a way to present the data in a meaningful way. I came to a conlusion of using small multiple line charts to present both the change over year for access to basic drinking-water service and basic sanitation for each South American country.
 ![alt text](SmallMultiple.png "Access to Basic Drinking-Water Service vs. Access to Basic Sanitation")
 
 # References
