@@ -10,6 +10,8 @@ Since both dataset files are identical, after I figure out what transformation I
 Below chart is the initial chart created for one country to see how the chart would look like.
 ![alt text](Initial_Chart.PNG "Initial Chart")
 
+To see what the chart would look like for all countries
+
 Looking at the initial chart and the dataset, it would not be feasible to plot the basic and managed drinking-water services ratings for 194 countries for 15 years. This would cause the graph to be illegible and unmeaningful. Thus, I limited to only countries where they had both basic managed drinking-water services rating populated. Below is the chart produced.
 ![alt text](All_Fields_Populated.PNG "Basic and Managed Drinking-Water Services Populated")
 
