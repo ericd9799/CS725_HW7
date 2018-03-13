@@ -18,9 +18,9 @@ The chart plotted the points incorrectly by connecting both basic and managed ra
 After narrowing the question, columns that did not pertain to basic drinking-water service were removed. With the question narrowed, I created a chart that displays the population with access to basic drinking-water in rural areas. Below is the produced chart.
 ![alt text](Initial_Chart.PNG "Population with Access to Basic Drinking-Water in Rural Areas")
 
-From the chart, I explored the dataset and noticed there were countries where they had the rating was either 0%, or between 90% to 100% of rural populating having access to basic drinking for all years. I decided to filter out these countries, and the number of remaining countries is over 100. This would still cause the produced chart to be illegible if the data for drinking-water and sanitation are plotted for 100+ countries.
+From the chart, I explored the dataset and noticed there were countries where the rating was either 0%, or between 90% to 100% for rural areas having access to basic drinking for all years. I decided to filter out these countries, and the number of remaining countries is over 100. This would still cause the produced chart to be illegible if the data for drinking-water and sanitation are plotted for 100+ countries.
 
-I added a new column to the dataset which contains the continent the country is located in. Adding the column will help further filter the data. I explored the data by filtering on the new column, and decided to narrow the data for analysis to countries within South America. The question changed to, how has the access to basic drinking-water and santitation changed over time in rural areas for countries in South America?
+I added a new column to the dataset which contains the continent the country is located in. Adding this column will help further filter the data. I explored the data by filtering on the new column, and decided to narrow the data for analysis to countries within South America. The question changed to, how has the access to basic drinking-water and santitation changed over time in rural areas for countries in South America?
 
 The graph below represents percentage of population for rural areas in South American countries with access to basic drinking-water service.
 ![alt text](Basic_Drinking_Water_SouthAmerica.PNG "Basic Drinking-Water Service for South American Countries")
@@ -28,7 +28,7 @@ The graph below represents percentage of population for rural areas in South Ame
 The graph below represents percentage of population for rural areas in South America countries with access to basic sanitation service.
 ![alt text](Basic_Sanitation_SouthAmerica.PNG "Basic Sanitation Service for South American Countries")
 
-I combined the datasets of both charts aboved to be able to compare the access to basic drinking-water services versus sanitation. By combining the data, the question changed to, how does access to basic drinking-water services compare to basic sanitation services in rural areas of South American countries? After combining the data, if all the points were plot onto a graph, there would be too many lines. Thus, I decided to generate a graph for each country. With this, I decided to use small multiples to present all the graph at once.
+I combined the datasets of both charts aboved to be able to compare the access to basic drinking-water services versus sanitation. By combining the data, the question changed to, how does access to basic drinking-water services compare to basic sanitation services in rural areas of South American countries? If all the points for each country were plotted on a single graph, it would cause the graph to be illegible. Thus, I decided to generate a graph for each country. With a graph generated for each country, the trend for basic drinking-water services and basic sanitation can be compared. To be able to compare between countries, small multiples was used to be able to display all the graph at once.
 ![alt text](SmallMultiple.png "Access to Basic Drinking-Water Service vs. Access to Basic Sanitation")
 
 # References
